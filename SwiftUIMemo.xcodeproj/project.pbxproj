@@ -16,6 +16,7 @@
 		D156D1C2255672DA0087ADCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D156D1C0255672DA0087ADCE /* LaunchScreen.storyboard */; };
 		D156D1CC255673570087ADCE /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156D1CB255673570087ADCE /* Memo.swift */; };
 		D156D1D0255674940087ADCE /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156D1CF255674940087ADCE /* MemoStore.swift */; };
+		D156D1D525567C300087ADCE /* DateFormatter+Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156D1D425567C300087ADCE /* DateFormatter+Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D156D1C3255672DA0087ADCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D156D1CB255673570087ADCE /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		D156D1CF255674940087ADCE /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		D156D1D425567C300087ADCE /* DateFormatter+Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Memo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		D156D1B1255672D80087ADCE /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				D156D1D325567BFE0087ADCE /* Extention */,
 				D156D1CA2556733C0087ADCE /* Model */,
 				D156D1B2255672D80087ADCE /* AppDelegate.swift */,
 				D156D1B4255672D80087ADCE /* SceneDelegate.swift */,
@@ -90,6 +93,14 @@
 				D156D1CF255674940087ADCE /* MemoStore.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D156D1D325567BFE0087ADCE /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				D156D1D425567C300087ADCE /* DateFormatter+Memo.swift */,
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 				D156D1B3255672D80087ADCE /* AppDelegate.swift in Sources */,
 				D156D1D0255674940087ADCE /* MemoStore.swift in Sources */,
 				D156D1BA255672D80087ADCE /* SwiftUIMemo.xcdatamodeld in Sources */,
+				D156D1D525567C300087ADCE /* DateFormatter+Memo.swift in Sources */,
 				D156D1B5255672D80087ADCE /* SceneDelegate.swift in Sources */,
 				D156D1B7255672D80087ADCE /* MemoListScene.swift in Sources */,
 				D156D1CC255673570087ADCE /* Memo.swift in Sources */,
