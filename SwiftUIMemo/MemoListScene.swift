@@ -14,16 +14,7 @@ struct MemoListScene: View {
     var body: some View {
         NavigationView {
             List(store.list){ memo in
-                VStack(alignment:.leading) { // 아래에 추가되는 내용들이 vertical하게 추가됨
-                    Text(memo.content)
-                        .font(.body)
-                        .lineLimit(1)
-                    
-                    Text("\(memo.insertDate, formatter: self.formatter)")
-                        .font(.caption)
-                        //이렇게 뒤에 붙은 걸 identifier라 한다.
-                        .foregroundColor(Color(UIColor.secondaryLabel))
-                }
+                MemoCell(memo:memo) // 뷰를 만들어주는 생성자로 리팩토링
             }
             .navigationBarTitle("내 메모")
         }//List에 키를 두고 cmd+shift+a 키
