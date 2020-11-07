@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D156D1B3255672D80087ADCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156D1B2255672D80087ADCE /* AppDelegate.swift */; };
 		D156D1B5255672D80087ADCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156D1B4255672D80087ADCE /* SceneDelegate.swift */; };
-		D156D1B7255672D80087ADCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156D1B6255672D80087ADCE /* ContentView.swift */; };
+		D156D1B7255672D80087ADCE /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156D1B6255672D80087ADCE /* MemoListScene.swift */; };
 		D156D1BA255672D80087ADCE /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D156D1B8255672D80087ADCE /* SwiftUIMemo.xcdatamodeld */; };
 		D156D1BC255672DA0087ADCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D156D1BB255672DA0087ADCE /* Assets.xcassets */; };
 		D156D1BF255672DA0087ADCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D156D1BE255672DA0087ADCE /* Preview Assets.xcassets */; };
@@ -22,7 +22,7 @@
 		D156D1AF255672D80087ADCE /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D156D1B2255672D80087ADCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D156D1B4255672D80087ADCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D156D1B6255672D80087ADCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D156D1B6255672D80087ADCE /* MemoListScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListScene.swift; sourceTree = "<group>"; };
 		D156D1B9255672D80087ADCE /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
 		D156D1BB255672DA0087ADCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D156D1BE255672DA0087ADCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 				D156D1CA2556733C0087ADCE /* Model */,
 				D156D1B2255672D80087ADCE /* AppDelegate.swift */,
 				D156D1B4255672D80087ADCE /* SceneDelegate.swift */,
-				D156D1B6255672D80087ADCE /* ContentView.swift */,
+				D156D1B6255672D80087ADCE /* MemoListScene.swift */,
 				D156D1BB255672DA0087ADCE /* Assets.xcassets */,
 				D156D1C0255672DA0087ADCE /* LaunchScreen.storyboard */,
 				D156D1C3255672DA0087ADCE /* Info.plist */,
@@ -166,7 +166,7 @@
 				D156D1D0255674940087ADCE /* MemoStore.swift in Sources */,
 				D156D1BA255672D80087ADCE /* SwiftUIMemo.xcdatamodeld in Sources */,
 				D156D1B5255672D80087ADCE /* SceneDelegate.swift in Sources */,
-				D156D1B7255672D80087ADCE /* ContentView.swift in Sources */,
+				D156D1B7255672D80087ADCE /* MemoListScene.swift in Sources */,
 				D156D1CC255673570087ADCE /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
