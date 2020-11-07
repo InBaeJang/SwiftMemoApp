@@ -21,6 +21,7 @@ struct MemoListScene: View {
             .navigationBarTitle("내 메모")
             .navigationBarItems(trailing: ModalButton(show: $showComposer))
             .sheet(isPresented: $showComposer, content: { ComposeScene(showComposer: self.$showComposer)
+                .environmentObject(self.store)
             })
         }//List에 키를 두고 cmd+shift+a 키
     }
